@@ -39,6 +39,31 @@ The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardwar
 
 ---
 
+## System Workflow 
+![Workflow Diagram](WORKFLOW%20-IDASS.png)
+---
+
+---
+
+## 📐 Circuit Diagram & Hardware Setup
+
+### Circuit Diagram
+![Circuit Diagram](ckt.jpeg)
+
+### Hardware Enclosure & Setup
+| External View / Presentation Board | Internal Circuit Wiring |
+| :---: | :---: |
+| ![Poster View](poster-cktbox.jpeg) | ![Internal Wiring](int-cktbox.jpeg) |
+
+* **Circuit Box Overview:** ![External Circuit Box](ext-cktbox.jpeg)
+
+---
+
+## 📱 Real-Time Telegram Alerts
+![Telegram Alerts](RT%20ALERTS%20-%20IDASS.png)
+
+---
+
 ## Features
 * **Dual-Controller Architecture:** Separates local hardware processing (Arduino) from wireless cloud communication (NodeMCU).
 * **Instant Visual Feedback:** Color-coded RGB LED states (Red for intrusion/denied, Green for access granted).
