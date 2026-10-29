@@ -3,7 +3,7 @@ IoT-based intrusion detection &amp; alert system using NodeMCU, Arduino, RFID, M
 An intelligent and affordable security solution designed to monitor, detect, and respond to unauthorized access in real time. Undertaken at **Software Technology Park, Guwahati, Assam**.
 
 ## Introduction
-Traditional security systems often lack real-time responses and smart automation[cite: 10]. This project enhances security by integrating IoT components to provide instant intrusion detection, faster communication, and automated responses to potential threats. 
+Traditional security systems often lack real-time responses and smart automation. This project enhances security by integrating IoT components to provide instant intrusion detection, faster communication, and automated responses to potential threats. 
 
 The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardware and connectivity tasks. The Arduino manages sensor inputs, RFID authentication, and servo-controlled locking, while the NodeMCU connects to Wi-Fi to send real-time alerts via the Telegram Bot API.
 
@@ -20,13 +20,13 @@ The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardwar
 
 | Component | Specifications | Purpose |
 | :--- | :--- | :--- |
-| **NodeMCU (ESP8266)** | Wi-Fi enabled microcontroller (ESP-12E)[cite: 11] | Sends real-time alerts via Telegram bot over Wi-Fi |
-| **Arduino UNO (2x)** | ATmega328P-based microcontroller[cite: 11] | Core control unit managing local operations |
-| **RFID Module (MFRC522)** | 13.56 MHz RFID reader module[cite: 11] | Authenticates authorized personnel via RFID tags |
-| **Servo Motor** | SG90, 90° rotation[cite: 11] | Simulates door lock mechanism (lock/unlock) |
-| **LM393 Motion Sensor** | Infrared motion detector[cite: 11] | Detects unauthorized physical movement |
-| **RGB LED** | Common cathode, 3 PWM inputs[cite: 11] | Indicates system state (Red: Alert, Green: Access Granted) |
-| **Telegram Bot API** | Online messaging service[cite: 11] | Delivers instant remote notifications |
+| **NodeMCU (ESP8266)** | Wi-Fi enabled microcontroller (ESP-12E)| Sends real-time alerts via Telegram bot over Wi-Fi |
+| **Arduino UNO (2x)** | ATmega328P-based microcontroller | Core control unit managing local operations |
+| **RFID Module (MFRC522)** | 13.56 MHz RFID reader module| Authenticates authorized personnel via RFID tags |
+| **Servo Motor** | SG90, 90° rotation | Simulates door lock mechanism (lock/unlock) |
+| **LM393 Motion Sensor** | Infrared motion detector | Detects unauthorized physical movement |
+| **RGB LED** | Common cathode, 3 PWM inputs | Indicates system state (Red: Alert, Green: Access Granted) |
+| **Telegram Bot API** | Online messaging service | Delivers instant remote notifications |
 
 ---
 
