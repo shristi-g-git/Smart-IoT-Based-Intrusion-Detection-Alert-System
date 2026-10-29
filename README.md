@@ -45,7 +45,7 @@ The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardwar
 
 ---
 
-## 📐 Circuit Diagram & Hardware Setup
+## Circuit Diagram & Hardware Setup
 
 ### Circuit Diagram
 ![Circuit Diagram](ckt.jpeg)
@@ -59,7 +59,7 @@ The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardwar
 
 ---
 
-## 📱 Real-Time Telegram Alerts
+##  Real-Time Telegram Alerts
 ![Telegram Alerts](RT%20ALERTS%20-%20IDASS.png)
 
 ---
