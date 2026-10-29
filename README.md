@@ -1,18 +1,18 @@
 # Smart-IoT-Based-Intrusion-Detection-Alert-System
 IoT-based intrusion detection &amp; alert system using NodeMCU, Arduino, RFID, Motion Sensors, and Telegram Bot API.
-An intelligent and affordable security solution designed to monitor, detect, and respond to unauthorized access in real time[cite: 8]. Undertaken at **Software Technology Park, Guwahati, Assam**.
+An intelligent and affordable security solution designed to monitor, detect, and respond to unauthorized access in real time. Undertaken at **Software Technology Park, Guwahati, Assam**.
 
 ## Introduction
-Traditional security systems often lack real-time responses and smart automation[cite: 10]. This project enhances security by integrating IoT components to provide instant intrusion detection, faster communication, and automated responses to potential threats[cite: 10]. 
+Traditional security systems often lack real-time responses and smart automation[cite: 10]. This project enhances security by integrating IoT components to provide instant intrusion detection, faster communication, and automated responses to potential threats. 
 
-The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardware and connectivity tasks[cite: 10]. The Arduino manages sensor inputs, RFID authentication, and servo-controlled locking, while the NodeMCU connects to Wi-Fi to send real-time alerts via the Telegram Bot API[cite: 10].
+The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardware and connectivity tasks. The Arduino manages sensor inputs, RFID authentication, and servo-controlled locking, while the NodeMCU connects to Wi-Fi to send real-time alerts via the Telegram Bot API.
 
 ---
 
 ## Objectives
 * **Detects Intrusion & Lockdown:** An LM393 motion sensor detects unauthorized movement; the system immediately switches the RGB LED to red and locks the servo-controlled door.
 * **Authenticate with RFID:** Arduino verifies user identity using the MFRC522 RFID module. Authorized tags unlock the door (Green LED), while unauthorized tags trigger alert mode.
-* **Real-Time Telegram Alerts:** NodeMCU uses secure Wi-Fi to send instant intrusion and access notifications straight to your Telegram chat[cite: 11].
+* **Real-Time Telegram Alerts:** NodeMCU uses secure Wi-Fi to send instant intrusion and access notifications straight to your Telegram chat.
 
 ---
 
@@ -20,13 +20,13 @@ The system uses two Arduino UNO boards and a NodeMCU (ESP8266) to handle hardwar
 
 | Component | Specifications | Purpose |
 | :--- | :--- | :--- |
-| **NodeMCU (ESP8266)** | Wi-Fi enabled microcontroller (ESP-12E)[cite: 11] | Sends real-time alerts via Telegram bot over Wi-Fi[cite: 11] |
-| **Arduino UNO (2x)** | ATmega328P-based microcontroller[cite: 11] | Core control unit managing local operations[cite: 11] |
-| **RFID Module (MFRC522)** | 13.56 MHz RFID reader module[cite: 11] | Authenticates authorized personnel via RFID tags[cite: 11] |
-| **Servo Motor** | SG90, 90° rotation[cite: 11] | Simulates door lock mechanism (lock/unlock)[cite: 11] |
-| **LM393 Motion Sensor** | Infrared motion detector[cite: 11] | Detects unauthorized physical movement[cite: 11] |
-| **RGB LED** | Common cathode, 3 PWM inputs[cite: 11] | Indicates system state (Red: Alert, Green: Access Granted)[cite: 11] |
-| **Telegram Bot API** | Online messaging service[cite: 11] | Delivers instant remote notifications[cite: 11] |
+| **NodeMCU (ESP8266)** | Wi-Fi enabled microcontroller (ESP-12E)[cite: 11] | Sends real-time alerts via Telegram bot over Wi-Fi |
+| **Arduino UNO (2x)** | ATmega328P-based microcontroller[cite: 11] | Core control unit managing local operations |
+| **RFID Module (MFRC522)** | 13.56 MHz RFID reader module[cite: 11] | Authenticates authorized personnel via RFID tags |
+| **Servo Motor** | SG90, 90° rotation[cite: 11] | Simulates door lock mechanism (lock/unlock) |
+| **LM393 Motion Sensor** | Infrared motion detector[cite: 11] | Detects unauthorized physical movement |
+| **RGB LED** | Common cathode, 3 PWM inputs[cite: 11] | Indicates system state (Red: Alert, Green: Access Granted) |
+| **Telegram Bot API** | Online messaging service[cite: 11] | Delivers instant remote notifications |
 
 ---
 
